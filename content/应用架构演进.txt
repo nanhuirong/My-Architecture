@@ -1,0 +1,26 @@
+1.传统垂直应用架构
+    LAMP：Linux Apache PHP(前后端界面和业务逻辑) MySQL(读写分离)
+    MVC:Spring + Struts + iBatis/Hibernate + Tomcat
+        View视图层: JSP JS HTML+CSS
+        Control调度控制层: Struts 用于前端web请求的分发, 调度后台的业务逻辑执行
+        Model应用模型层:应用的主体部分
+
+    传统的MVC模式不包含数据访问层, 通常需要专门的数据库链接池和统一的数据库访问接口
+    ORM框架: IBatis Hibernate屏蔽底层对数据库的访问
+
+2.RPC架构 Remote procedure call 进程间通信协议
+    服务提供者
+    服务发布者
+    本地服务代理
+
+    主流RPC框架
+        Facebook 开源的Apache Thrift, 传输数据格式采用二进制
+        Hadoop 子项目 Avro-RPC
+        Google开源的gRPC
+        caucho提供的Hessian
+
+3.SOA服务化架构
+
+4.MSA微服务架构
+
+
